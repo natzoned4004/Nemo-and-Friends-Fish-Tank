@@ -1,7 +1,7 @@
 /*
  * Noah Alonso-Torres
- * HW7
- * Nemo Fish Tank
+ * Nemo and Fish Tank
+ * FishTank Class
  */
 
 import java.awt.*;

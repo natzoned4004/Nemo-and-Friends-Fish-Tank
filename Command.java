@@ -1,7 +1,7 @@
 /*
  * Noah Alonso-Torres
- * HW7
- * Nemo Fish Tank
+ * Nemo and Friend Fish Tank
+ * Command Class
  */
 
 import java.awt.*;
@@ -15,8 +15,8 @@ public class Command {
 	private FishTank drawer;
 
     public void setUpFrame() {
-        //drawer = new FishTank(null);
-    	drawer = new FishTank();
+
+    		drawer = new FishTank();
         JFrame frame = new JFrame("Nemo Tank");
         frame.getContentPane().setLayout(new BorderLayout());
         frame.getContentPane().add(new JLabel(""), BorderLayout.SOUTH);
@@ -31,6 +31,5 @@ public class Command {
 		Command command = new Command();
 		command.setUpFrame();
         command.drawer.run();
-        
 	}
 }
